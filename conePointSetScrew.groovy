@@ -23,7 +23,7 @@ import com.google.gson.reflect.TypeToken;
 	
 import eu.mihosoft.vrl.v3d.parametrics.*;
 CSG getNut(){
-	String type= "PhillipsRoundedHeadThreadFormingScrews"
+	String type= "conePointSetScrew"
 	LengthParameter facets		= new LengthParameter("Bolt Hole Facet Count",10,[40,10])
 	LengthParameter boltLength		= new LengthParameter("Bolt Length",10,[180,10])
 	LengthParameter offset		= new LengthParameter("printerOffset",0.0,[2,0])
